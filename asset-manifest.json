@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/vpcllc/static/css/main.51dfed9c.css",
+    "main.js": "/vpcllc/static/js/main.acc71d72.js",
+    "static/media/me.png": "/vpcllc/static/media/me.821ecddcb9953b46bf75.png",
+    "static/media/me-about.jpg": "/vpcllc/static/media/me-about.fb4452e7f286d3636ef9.jpg",
+    "static/media/portfolio5.png": "/vpcllc/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "static/media/portfolio2.jpg": "/vpcllc/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/portfolio6.jpg": "/vpcllc/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "static/media/portfolio1.jpg": "/vpcllc/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/portfolio3.jpg": "/vpcllc/static/media/portfolio3.cbab42559fe73e73906f.jpg",
+    "static/media/portfolio4.jpg": "/vpcllc/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
+    "static/media/cv.docx": "/vpcllc/static/media/cv.ac1ba7897e374c5723cc.docx",
+    "index.html": "/vpcllc/index.html",
+    "main.51dfed9c.css.map": "/vpcllc/static/css/main.51dfed9c.css.map",
+    "main.acc71d72.js.map": "/vpcllc/static/js/main.acc71d72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51dfed9c.css",
+    "static/js/main.acc71d72.js"
+  ]
+}
