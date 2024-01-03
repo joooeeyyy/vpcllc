@@ -37,8 +37,8 @@ const DropCat = () => {
 
       {/*this will contain the menu*/}
       <div className={`dropdown-menu ${open ? "active" : "inactive"}`}>
-        {categories.map((e) => (
-          <ul>
+        {categories.map((e, index) => (
+          <ul key={index}>
             <DropDownItem text={e.categoryName} />
           </ul>
         ))}

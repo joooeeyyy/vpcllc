@@ -16,8 +16,8 @@ const Services = () => {
       <div className="wrapper_drop_service_container">
         <DropCat />
         <div className="container services__container">
-          {categoriesUse.map((e) => (
-            <article className="service">
+          {categoriesUse.map((e, index) => (
+            <article className="service" key={index}>
               <div className="service__head">
                 <h3>{e}</h3>
               </div>
