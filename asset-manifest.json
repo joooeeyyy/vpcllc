@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vpcllc/static/css/main.51dfed9c.css",
-    "main.js": "/vpcllc/static/js/main.acc71d72.js",
+    "main.js": "/vpcllc/static/js/main.d0f98491.js",
     "static/media/me.png": "/vpcllc/static/media/me.821ecddcb9953b46bf75.png",
     "static/media/me-about.jpg": "/vpcllc/static/media/me-about.fb4452e7f286d3636ef9.jpg",
     "static/media/portfolio5.png": "/vpcllc/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
@@ -13,10 +13,10 @@
     "static/media/cv.docx": "/vpcllc/static/media/cv.ac1ba7897e374c5723cc.docx",
     "index.html": "/vpcllc/index.html",
     "main.51dfed9c.css.map": "/vpcllc/static/css/main.51dfed9c.css.map",
-    "main.acc71d72.js.map": "/vpcllc/static/js/main.acc71d72.js.map"
+    "main.d0f98491.js.map": "/vpcllc/static/js/main.d0f98491.js.map"
   },
   "entrypoints": [
     "static/css/main.51dfed9c.css",
-    "static/js/main.acc71d72.js"
+    "static/js/main.d0f98491.js"
   ]
 }
