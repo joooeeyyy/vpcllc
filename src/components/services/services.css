@@ -1,0 +1,142 @@
+.services__container {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.service {
+  background: var(--color-bg-variant);
+  border-radius: 0 0 2rem 2rem;
+  border: 1px solid var(--color-primary);
+  height: fit-content;
+  transition: var(--transition);
+}
+
+.service:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.service__head {
+  background: var(--color-primary);
+  padding: 2rem;
+  border-radius: 0 0 2rem 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.service__head h3 {
+  color: var(--color-bg);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.service__list {
+  padding: 2rem;
+}
+
+.service__list li {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.wrapper_drop_service_container {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service__list-icon {
+  color: var(--color-primary);
+  margin-top: 2px;
+}
+
+.service__list p {
+  font-size: 0.9rem;
+}
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+  .services__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding-top: 50px;
+  }
+
+  .service {
+    height: auto;
+  }
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+  .services__container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+/* ==menu-trigger=== */
+.menu-container {
+  display: inline-block;
+  flex-direction: column;
+  text-align: center;
+}
+
+.wrapper-in-menu-trigger {
+  display: inline-block;
+}
+
+.menu-trigger {
+  text-align: center;
+  display: inline-block;
+  height: 45px;
+  width: 150px;
+  border-radius: 20%;
+  cursor: pointer;
+  overflow: hidden;
+  border: 2px solid #fff;
+}
+
+.dropdown-menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: var(500ms) ease;
+  top: 100;
+  right: 20;
+  border: radius 20px;
+  width: 160px;
+  background-color: #fff;
+  border-radius: 20%;
+}
+
+.dropdown-menu.inactive {
+  opacity: 0;
+  height: 0px;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: var(500ms) ease;
+  top: 100;
+  right: 20;
+  border: radius 20px;
+  width: 160px;
+  background-color: #fff;
+  border-radius: 20%;
+}
+
+.dropdownItem {
+  cursor: pointer;
+}
+
+.dropdown-menu::before {
+  top: -5;
+  right: 20px;
+  height: 20px;
+  width: 20px;
+  transform: rotate(45deg);
+}
