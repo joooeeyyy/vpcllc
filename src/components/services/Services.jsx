@@ -9,7 +9,7 @@ const Services = () => {
 
   return (
     <section id="services">
-      <h5>What I Offer</h5>
+      <h5>What we Offer</h5>
       <h2>Services</h2>
 
       {/*Place the menu on top of the services container*/}
